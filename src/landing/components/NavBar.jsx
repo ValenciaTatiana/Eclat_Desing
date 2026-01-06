@@ -12,8 +12,6 @@ export const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuId = "primary-navigation";
 
-    console.log(isMenuOpen)
-
     return (
         <nav className="navbar">
             <div className="navbar__logo-container">
